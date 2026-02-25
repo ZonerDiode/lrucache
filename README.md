@@ -1,5 +1,5 @@
 ## Project Overview
-LruCache is a .NET 10 library that demonstrates implementing a Least Recently Used Cache, which is a cache that only keeps a certain amount of items in memory depending on their usage. When the cache reaches capacity the least recently used item is discarded. Adding an item or getting an item moves it to the top of the cache.
+LruCache is a .NET 10 library that demonstrates implementing a Least Recently Used Cache, which is a cache that only keeps a certain amount of items in memory depending on their usage. When the cache reaches capacity the least recently used item is discarded. Adding an item or getting an item moves it to the top of the cache, while old items fall off the end.
 
 I first used a scratch pad to visualize the order of changing the Next and Previous references to implement LruCache.cs manually.
 
